@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="368.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="su.logix.xmltoexcel.main.MainController">
+    <children>
+        <Button focusTraversable="false" layoutX="42.0" layoutY="302.0" mnemonicParsing="false" onAction="#selectFiles" text="Добавить файлы" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="40.0" />
+        <Button focusTraversable="false" layoutX="206.0" layoutY="303.0" mnemonicParsing="false" onAction="#clearFileList" text="Очистить список файлов" AnchorPane.bottomAnchor="40.0" AnchorPane.leftAnchor="206.0" AnchorPane.rightAnchor="205.0" />
+        <Button focusTraversable="false" layoutX="343.0" layoutY="302.0" mnemonicParsing="false" onAction="#export" text="Экспорт в Excel" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+        <ListView fx:id="lvFiles" focusTraversable="false" layoutX="42.0" layoutY="41.0" prefHeight="220.0" prefWidth="402.0" AnchorPane.bottomAnchor="110.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="40.0" />
+    </children>
+</AnchorPane>
